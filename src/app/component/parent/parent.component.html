@@ -1,0 +1,6 @@
+<app-child [childMessage]="message" (messageEmitter)="receiveMessage($event)"></app-child>
+<p>Getting child data using ViewChild</p>
+<h1>{{parentData}}</h1>
+<p>Now we will get the child data using Output decorator </p>
+<h3>{{outputDecoratorMessage}}</h3>
+
